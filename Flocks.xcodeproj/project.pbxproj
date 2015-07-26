@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F49D2B911B658117002B07EE /* RSSFlocksView.h in Headers */ = {isa = PBXBuildFile; fileRef = F49D2B901B658117002B07EE /* RSSFlocksView.h */; };
+		F49D2B931B658117002B07EE /* RSSFlocksView.m in Sources */ = {isa = PBXBuildFile; fileRef = F49D2B921B658117002B07EE /* RSSFlocksView.m */; };
+		F49D2B9B1B658236002B07EE /* RSSFlocksConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F49D2B991B658236002B07EE /* RSSFlocksConfigurationWindowController.h */; };
+		F49D2B9C1B658236002B07EE /* RSSFlocksConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49D2B9A1B658236002B07EE /* RSSFlocksConfigurationWindowController.m */; };
+		F49D2BA51B658290002B07EE /* RSSFlocksSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F49D2BA31B658290002B07EE /* RSSFlocksSettings.h */; };
+		F49D2BA61B658290002B07EE /* RSSFlocksSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F49D2BA41B658290002B07EE /* RSSFlocksSettings.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F49D2B8B1B658117002B07EE /* Flocks.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flocks.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49D2B8F1B658117002B07EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49D2B901B658117002B07EE /* RSSFlocksView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSFlocksView.h; sourceTree = "<group>"; };
+		F49D2B921B658117002B07EE /* RSSFlocksView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSFlocksView.m; sourceTree = "<group>"; };
+		F49D2B991B658236002B07EE /* RSSFlocksConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFlocksConfigurationWindowController.h; sourceTree = "<group>"; };
+		F49D2B9A1B658236002B07EE /* RSSFlocksConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFlocksConfigurationWindowController.m; sourceTree = "<group>"; };
+		F49D2BA31B658290002B07EE /* RSSFlocksSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFlocksSettings.h; sourceTree = "<group>"; };
+		F49D2BA41B658290002B07EE /* RSSFlocksSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFlocksSettings.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49D2B871B658117002B07EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F49D2B811B658117002B07EE = {
+			isa = PBXGroup;
+			children = (
+				F49D2B8D1B658117002B07EE /* Flocks */,
+				F49D2B8C1B658117002B07EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F49D2B8C1B658117002B07EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49D2B8B1B658117002B07EE /* Flocks.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49D2B8D1B658117002B07EE /* Flocks */ = {
+			isa = PBXGroup;
+			children = (
+				F49D2BA01B658260002B07EE /* rsscommon */,
+				F49D2B9D1B658244002B07EE /* GPL */,
+				F49D2BA31B658290002B07EE /* RSSFlocksSettings.h */,
+				F49D2BA41B658290002B07EE /* RSSFlocksSettings.m */,
+				F49D2B901B658117002B07EE /* RSSFlocksView.h */,
+				F49D2B921B658117002B07EE /* RSSFlocksView.m */,
+				F49D2B9F1B65824D002B07EE /* Configuration */,
+				F49D2B8E1B658117002B07EE /* Supporting Files */,
+			);
+			path = Flocks;
+			sourceTree = "<group>";
+		};
+		F49D2B8E1B658117002B07EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F49D2B8F1B658117002B07EE /* Info.plist */,
+				F49D2B9E1B658249002B07EE /* images */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F49D2B9D1B658244002B07EE /* GPL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GPL;
+			sourceTree = "<group>";
+		};
+		F49D2B9E1B658249002B07EE /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F49D2B9F1B65824D002B07EE /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F49D2B991B658236002B07EE /* RSSFlocksConfigurationWindowController.h */,
+				F49D2B9A1B658236002B07EE /* RSSFlocksConfigurationWindowController.m */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		F49D2BA01B658260002B07EE /* rsscommon */ = {
+			isa = PBXGroup;
+			children = (
+				F49D2BA21B658274002B07EE /* Resources */,
+			);
+			name = rsscommon;
+			sourceTree = "<group>";
+		};
+		F49D2BA21B658274002B07EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F49D2B881B658117002B07EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49D2BA51B658290002B07EE /* RSSFlocksSettings.h in Headers */,
+				F49D2B9B1B658236002B07EE /* RSSFlocksConfigurationWindowController.h in Headers */,
+				F49D2B911B658117002B07EE /* RSSFlocksView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F49D2B8A1B658117002B07EE /* Flocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49D2B961B658117002B07EE /* Build configuration list for PBXNativeTarget "Flocks" */;
+			buildPhases = (
+				F49D2B861B658117002B07EE /* Sources */,
+				F49D2B871B658117002B07EE /* Frameworks */,
+				F49D2B881B658117002B07EE /* Headers */,
+				F49D2B891B658117002B07EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flocks;
+			productName = Flocks;
+			productReference = F49D2B8B1B658117002B07EE /* Flocks.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49D2B821B658117002B07EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					F49D2B8A1B658117002B07EE = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = F49D2B851B658117002B07EE /* Build configuration list for PBXProject "Flocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F49D2B811B658117002B07EE;
+			productRefGroup = F49D2B8C1B658117002B07EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49D2B8A1B658117002B07EE /* Flocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F49D2B891B658117002B07EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49D2B861B658117002B07EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49D2BA61B658290002B07EE /* RSSFlocksSettings.m in Sources */,
+				F49D2B931B658117002B07EE /* RSSFlocksView.m in Sources */,
+				F49D2B9C1B658236002B07EE /* RSSFlocksConfigurationWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F49D2B941B658117002B07EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F49D2B951B658117002B07EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F49D2B971B658117002B07EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Flocks/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		F49D2B981B658117002B07EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Flocks/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F49D2B851B658117002B07EE /* Build configuration list for PBXProject "Flocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49D2B941B658117002B07EE /* Debug */,
+				F49D2B951B658117002B07EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49D2B961B658117002B07EE /* Build configuration list for PBXNativeTarget "Flocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49D2B971B658117002B07EE /* Debug */,
+				F49D2B981B658117002B07EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F49D2B821B658117002B07EE /* Project object */;
+}

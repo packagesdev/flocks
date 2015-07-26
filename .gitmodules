@@ -1,0 +1,3 @@
+[submodule "Flocks/rsscommon"]
+	path = Flocks/rsscommon
+	url = https://github.com/packagesdev/rsscommon
