@@ -1,12 +1,5 @@
-//
-//  RSSFlocksConfigurationWindowController.h
-//  Flocks
-//
-//  Created by stephane on 7/26/15.
-//
-//
 
-#import <Cocoa/Cocoa.h>
+#import "RSSConfigurationWindowController.h"
 
 @interface RSSFlocksConfigurationWindowController : RSSConfigurationWindowController
 
