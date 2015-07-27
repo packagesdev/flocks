@@ -38,6 +38,23 @@
 		F49D2BD71B65A3EB002B07EE /* RSSSecondaryBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F49D2BD31B65A3EB002B07EE /* RSSSecondaryBox.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F4F4B8201B66CDD10047F8E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4F4B81C1B66CDD10047F8E6 /* refafactor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F49477B31B15330700763450;
+			remoteInfo = refafactor;
+		};
+		F4F4B8221B66CDD90047F8E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4F4B81C1B66CDD10047F8E6 /* refafactor.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F49477B21B15330700763450;
+			remoteInfo = refafactor;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		F47A6CB71B66CD450077F71E /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbnail.png; path = images/thumbnail.png; sourceTree = "<group>"; };
 		F47A6CB81B66CD450077F71E /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbnail@2x.png"; path = "images/thumbnail@2x.png"; sourceTree = "<group>"; };
@@ -70,6 +87,7 @@
 		F49D2BD11B65A3EB002B07EE /* RSSLightGrayBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSLightGrayBackgroundView.m; path = rsscommon/RSSLightGrayBackgroundView.m; sourceTree = "<group>"; };
 		F49D2BD21B65A3EB002B07EE /* RSSSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSSecondaryBox.h; path = rsscommon/RSSSecondaryBox.h; sourceTree = "<group>"; };
 		F49D2BD31B65A3EB002B07EE /* RSSSecondaryBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSSecondaryBox.m; path = rsscommon/RSSSecondaryBox.m; sourceTree = "<group>"; };
+		F4F4B81C1B66CDD10047F8E6 /* refafactor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = refafactor.xcodeproj; path = Flocks/rsscommon/refafactor/refafactor.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +104,7 @@
 		F49D2B811B658117002B07EE = {
 			isa = PBXGroup;
 			children = (
+				F4F4B81C1B66CDD10047F8E6 /* refafactor.xcodeproj */,
 				F49D2B8D1B658117002B07EE /* Flocks */,
 				F49D2B8C1B658117002B07EE /* Products */,
 			);
@@ -200,6 +219,14 @@
 			name = Rgbhsl;
 			sourceTree = "<group>";
 		};
+		F4F4B81D1B66CDD10047F8E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4F4B8211B66CDD10047F8E6 /* refafactor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -233,10 +260,12 @@
 				F49D2B871B658117002B07EE /* Frameworks */,
 				F49D2B881B658117002B07EE /* Headers */,
 				F49D2B891B658117002B07EE /* Resources */,
+				F4F4B8251B66CDE70047F8E6 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F4F4B8231B66CDD90047F8E6 /* PBXTargetDependency */,
 			);
 			name = Flocks;
 			productName = Flocks;
@@ -266,12 +295,28 @@
 			mainGroup = F49D2B811B658117002B07EE;
 			productRefGroup = F49D2B8C1B658117002B07EE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F4F4B81D1B66CDD10047F8E6 /* Products */;
+					ProjectRef = F4F4B81C1B66CDD10047F8E6 /* refafactor.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F49D2B8A1B658117002B07EE /* Flocks */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F4F4B8211B66CDD10047F8E6 /* refafactor */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = refafactor;
+			remoteRef = F4F4B8201B66CDD10047F8E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F49D2B891B658117002B07EE /* Resources */ = {
@@ -287,6 +332,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F4F4B8251B66CDE70047F8E6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#Refactor the rsscommon class to avoid warning or issues when multiple RSS screen savers are installed.\n\n\"${TARGET_BUILD_DIR}\"/refafactor --bundle \"${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}\" --prefix FLO\n\nexit 0";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F49D2B861B658117002B07EE /* Sources */ = {
@@ -309,6 +370,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4F4B8231B66CDD90047F8E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = refafactor;
+			targetProxy = F4F4B8221B66CDD90047F8E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F49D2BBE1B658368002B07EE /* Localizable.strings */ = {
