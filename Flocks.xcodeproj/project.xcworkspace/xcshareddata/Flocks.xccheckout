@@ -20,7 +20,7 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>51F150AFDC369B79AFC620C0E9E34ADCDECB9665</key>
-		<string>../..Flocks/rsscommon/</string>
+		<string>../..Flocks/rsscommon</string>
 		<key>C7A409649E314840E1F42BF559DEA452876AFCC2</key>
 		<string>../..</string>
 	</dict>
