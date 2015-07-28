@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7525" systemVersion="14E46" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7525" systemVersion="14E46" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7525"/>
@@ -44,19 +44,22 @@
                     <userLayoutGuide location="246" affinity="minX"/>
                 </userGuides>
                 <subviews>
-                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o8C-UU-bPJ" customClass="RSSSecondaryBox">
+                    <customView id="o8C-UU-bPJ" customClass="RSSSecondaryBox">
                         <rect key="frame" x="-1" y="61" width="494" height="48"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DyO-8h-Rmt">
-                                <rect key="frame" x="247" y="14" width="141" height="18"/>
-                                <buttonCell key="cell" type="check" title="Main display only" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="BZ6-ka-m1f">
+                            <button id="DyO-8h-Rmt">
+                                <rect key="frame" x="247" y="14" width="203" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="check" title="Écran principal uniquement" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="BZ6-ka-m1f">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TD5-IX-A3L">
+                            <textField verticalHuggingPriority="750" id="TD5-IX-A3L">
                                 <rect key="frame" x="171" y="15" width="71" height="17"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Displays:" id="qIS-p8-NIi">
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Écrans :" id="qIS-p8-NIi">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -64,8 +67,9 @@
                             </textField>
                         </subviews>
                     </customView>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="AWE-IM-RZ0">
+                    <button verticalHuggingPriority="750" tag="1" id="AWE-IM-RZ0">
                         <rect key="frame" x="394" y="13" width="84" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="mIM-lX-llA">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -77,63 +81,47 @@ DQ
                             <action selector="closeDialog:" target="-2" id="mnx-rE-mwZ"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w1E-SX-GHp">
-                        <rect key="frame" x="310" y="13" width="84" height="32"/>
-                        <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="HXi-oq-uey">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                            <string key="keyEquivalent" base64-UTF8="YES">
-Gw
-</string>
-                        </buttonCell>
-                        <connections>
-                            <action selector="closeDialog:" target="-2" id="hAU-f2-2hO"/>
-                        </connections>
-                    </button>
-                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CfX-dB-eXh" customClass="RSSLightGrayBackgroundView">
+                    <customView id="CfX-dB-eXh" customClass="RSSLightGrayBackgroundView">
                         <rect key="frame" x="-1" y="285" width="494" height="195"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JTD-Ro-EdB">
-                                <rect key="frame" x="99" y="158" width="143" height="17"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Number of leaders:" id="H6b-Fd-uMP">
+                            <textField verticalHuggingPriority="750" id="JTD-Ro-EdB">
+                                <rect key="frame" x="84" y="158" width="158" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Nombre de meneurs :" id="H6b-Fd-uMP">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K9S-Dl-hRD">
-                                <rect key="frame" x="87" y="133" width="155" height="17"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Number of followers:" id="pkz-7I-byd">
+                            <textField verticalHuggingPriority="750" id="K9S-Dl-hRD">
+                                <rect key="frame" x="59" y="133" width="183" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Nombre de poursuivants :" id="pkz-7I-byd">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="keI-pt-hs2">
-                                <rect key="frame" x="171" y="45" width="71" height="17"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Bug size:" id="cOj-pE-8w0">
+                            <textField verticalHuggingPriority="750" id="keI-pt-hs2">
+                                <rect key="frame" x="96" y="45" width="146" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Taille des insectes :" id="cOj-pE-8w0">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OFY-MT-79W">
-                                <rect key="frame" x="124" y="103" width="118" height="17"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Bug geometry:" id="Kcl-Gq-WTz">
-                                    <font key="font" metaFont="systemBold"/>
-                                    <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DXS-hs-3st">
+                            <popUpButton verticalHuggingPriority="750" id="DXS-hs-3st">
                                 <rect key="frame" x="246" y="98" width="128" height="26"/>
-                                <popUpButtonCell key="cell" type="push" title="Dots" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="BU3-rw-aRo" id="Lur-JQ-aBU">
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="Points" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="BU3-rw-aRo" id="Lur-JQ-aBU">
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="menu"/>
                                     <menu key="menu" title="OtherViews" id="SIo-4E-o3g">
                                         <items>
-                                            <menuItem title="Dots" state="on" id="BU3-rw-aRo"/>
-                                            <menuItem title="Blobs" tag="1" id="4Rg-TE-RS7"/>
+                                            <menuItem title="Points" state="on" id="BU3-rw-aRo"/>
+                                            <menuItem title="Gouttes" tag="1" id="4Rg-TE-RS7"/>
                                         </items>
                                     </menu>
                                 </popUpButtonCell>
@@ -141,16 +129,18 @@ Gw
                                     <action selector="setGeometryType:" target="-2" id="QLn-Fm-E2X"/>
                                 </connections>
                             </popUpButton>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cmC-a0-xX4">
-                                <rect key="frame" x="112" y="75" width="130" height="17"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Blob complexity:" id="c4g-xa-r7N">
+                            <textField verticalHuggingPriority="750" id="cmC-a0-xX4">
+                                <rect key="frame" x="64" y="75" width="178" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Complexité des gouttes :" id="c4g-xa-r7N">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="icr-jK-CyW">
+                            <slider verticalHuggingPriority="750" id="icr-jK-CyW">
                                 <rect key="frame" x="247" y="155" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <sliderCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="100" doubleValue="10" tickMarkPosition="below" sliderType="linear" id="xbF-BX-Ohp">
                                     <font key="font" size="12" name="Helvetica"/>
                                 </sliderCell>
@@ -158,16 +148,18 @@ Gw
                                     <action selector="setNumberOfLeaders:" target="-2" id="Yha-WB-u5b"/>
                                 </connections>
                             </slider>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PNh-j2-9Tr">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="PNh-j2-9Tr">
                                 <rect key="frame" x="380" y="158" width="40" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="left" id="NqL-Br-Qns">
-                                    <font key="font" metaFont="titleBar" size="12"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                     <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.72549019609999998" green="0.12549019610000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </textFieldCell>
                             </textField>
-                            <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7dn-l8-qwq">
+                            <slider verticalHuggingPriority="750" id="7dn-l8-qwq">
                                 <rect key="frame" x="247" y="130" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <sliderCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="10000" doubleValue="10" tickMarkPosition="below" sliderType="linear" id="OOJ-hF-5S2">
                                     <font key="font" size="12" name="Helvetica"/>
                                 </sliderCell>
@@ -175,16 +167,18 @@ Gw
                                     <action selector="setNumberOfFollowers:" target="-2" id="dFU-7e-yyd"/>
                                 </connections>
                             </slider>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mCs-CO-DGp">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="mCs-CO-DGp">
                                 <rect key="frame" x="380" y="132" width="40" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="left" id="acK-TC-stN">
-                                    <font key="font" metaFont="titleBar" size="12"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                     <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.72549019609999998" green="0.12549019610000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </textFieldCell>
                             </textField>
-                            <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="So0-Kt-XE5">
+                            <slider verticalHuggingPriority="750" id="So0-Kt-XE5">
                                 <rect key="frame" x="247" y="72" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <sliderCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="10" doubleValue="10" tickMarkPosition="below" sliderType="linear" id="5m0-lB-4E4">
                                     <font key="font" size="12" name="Helvetica"/>
                                 </sliderCell>
@@ -192,16 +186,18 @@ Gw
                                     <action selector="setBlobComplexityType:" target="-2" id="EsS-rs-XML"/>
                                 </connections>
                             </slider>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xU1-ji-jwY">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="xU1-ji-jwY">
                                 <rect key="frame" x="380" y="74" width="40" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="left" id="bWn-0Z-WIl">
-                                    <font key="font" metaFont="titleBar" size="12"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                     <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.72549019609999998" green="0.12549019610000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </textFieldCell>
                             </textField>
-                            <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6dO-9H-svt">
+                            <slider verticalHuggingPriority="750" id="6dO-9H-svt">
                                 <rect key="frame" x="247" y="42" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <sliderCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="100" doubleValue="10" tickMarkPosition="below" sliderType="linear" id="rSC-aT-LIZ">
                                     <font key="font" size="12" name="Helvetica"/>
                                 </sliderCell>
@@ -209,16 +205,18 @@ Gw
                                     <action selector="setBugSize:" target="-2" id="1Ug-8u-1Tb"/>
                                 </connections>
                             </slider>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2vl-Cs-e0d">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="2vl-Cs-e0d">
                                 <rect key="frame" x="380" y="44" width="40" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="left" id="egS-h9-CXY">
-                                    <font key="font" metaFont="titleBar" size="12"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                     <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.72549019609999998" green="0.12549019610000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </textFieldCell>
                             </textField>
-                            <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UeG-u5-x1P">
+                            <slider verticalHuggingPriority="750" id="UeG-u5-x1P">
                                 <rect key="frame" x="247" y="17" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <sliderCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="100" doubleValue="10" tickMarkPosition="below" sliderType="linear" id="W7T-V9-2gD">
                                     <font key="font" size="12" name="Helvetica"/>
                                 </sliderCell>
@@ -226,17 +224,28 @@ Gw
                                     <action selector="setBugSpeed:" target="-2" id="nzw-qW-Osu"/>
                                 </connections>
                             </slider>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RzP-iw-9vQ">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="RzP-iw-9vQ">
                                 <rect key="frame" x="380" y="19" width="40" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="left" id="QjY-xQ-WgQ">
-                                    <font key="font" metaFont="titleBar" size="12"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                     <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.72549019609999998" green="0.12549019610000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aX0-PF-1Ul">
-                                <rect key="frame" x="154" y="20" width="88" height="17"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Bug speed:" id="Mcg-LY-2sp">
+                            <textField verticalHuggingPriority="750" id="aX0-PF-1Ul">
+                                <rect key="frame" x="84" y="20" width="158" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Vitesse des insectes :" id="Mcg-LY-2sp">
+                                    <font key="font" metaFont="systemBold"/>
+                                    <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" id="OFY-MT-79W">
+                                <rect key="frame" x="96" y="104" width="146" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Type de géometrie :" id="Kcl-Gq-WTz">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -244,27 +253,31 @@ Gw
                             </textField>
                         </subviews>
                     </customView>
-                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fTs-lM-H7M" customClass="RSSSecondaryBox">
+                    <customView id="fTs-lM-H7M" customClass="RSSSecondaryBox">
                         <rect key="frame" x="-1" y="204" width="494" height="82"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3zH-g8-IBq">
-                                <rect key="frame" x="112" y="20" width="130" height="17"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Color fade speed:" id="Bjc-yB-N9P">
+                            <textField verticalHuggingPriority="750" id="3zH-g8-IBq">
+                                <rect key="frame" x="61" y="20" width="181" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Vitesse de décoloration :" id="Bjc-yB-N9P">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EnK-mK-xMw">
+                            <textField verticalHuggingPriority="750" id="EnK-mK-xMw">
                                 <rect key="frame" x="158" y="45" width="84" height="17"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Stretch:" id="Tsb-93-7MA">
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Étirement :" id="Tsb-93-7MA">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JIa-SA-wZA">
+                            <slider verticalHuggingPriority="750" id="JIa-SA-wZA">
                                 <rect key="frame" x="247" y="42" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="10" tickMarkPosition="below" sliderType="linear" id="nIx-UO-Bj2">
                                     <font key="font" size="12" name="Helvetica"/>
                                 </sliderCell>
@@ -272,16 +285,18 @@ Gw
                                     <action selector="setStretch:" target="-2" id="PTZ-T2-jFl"/>
                                 </connections>
                             </slider>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YYX-Kg-OGw">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="YYX-Kg-OGw">
                                 <rect key="frame" x="380" y="44" width="40" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="left" id="mkM-XS-qHM">
-                                    <font key="font" metaFont="titleBar" size="12"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                     <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.72549019609999998" green="0.12549019610000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </textFieldCell>
                             </textField>
-                            <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9hQ-Vf-e0V">
+                            <slider verticalHuggingPriority="750" id="9hQ-Vf-e0V">
                                 <rect key="frame" x="247" y="17" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="8" tickMarkPosition="below" sliderType="linear" id="4cl-af-kJ9">
                                     <font key="font" size="12" name="Helvetica"/>
                                 </sliderCell>
@@ -289,22 +304,25 @@ Gw
                                     <action selector="setColorFadeSpeed:" target="-2" id="yBY-Ql-BwZ"/>
                                 </connections>
                             </slider>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B2V-ts-xG2">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="B2V-ts-xG2">
                                 <rect key="frame" x="380" y="19" width="40" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="left" id="1Ku-jS-faU">
-                                    <font key="font" metaFont="titleBar" size="12"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                     <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.72549019609999998" green="0.12549019610000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </textFieldCell>
                             </textField>
                         </subviews>
                     </customView>
-                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rRA-bp-O04" customClass="RSSLightGrayBackgroundView">
+                    <customView id="rRA-bp-O04" customClass="RSSLightGrayBackgroundView">
                         <rect key="frame" x="-1" y="108" width="494" height="97"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eoq-oV-7VL">
-                                <rect key="frame" x="247" y="60" width="141" height="18"/>
-                                <buttonCell key="cell" type="check" title="Show connections" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="wXF-a5-3dj">
+                            <button id="eoq-oV-7VL">
+                                <rect key="frame" x="247" y="60" width="181" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="check" title="Afficher les connexions" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="wXF-a5-3dj">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -312,25 +330,28 @@ Gw
                                     <action selector="setShowConnections:" target="-2" id="p9v-c1-SJn"/>
                                 </connections>
                             </button>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EIt-Xg-Zb0">
-                                <rect key="frame" x="103" y="60" width="140" height="17"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Rendering options:" id="Xjt-Pf-TpZ">
+                            <textField verticalHuggingPriority="750" id="EIt-Xg-Zb0">
+                                <rect key="frame" x="103" y="61" width="140" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Options de rendu :" id="Xjt-Pf-TpZ">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GCy-8n-wDC">
-                                <rect key="frame" x="265" y="19" width="174" height="14"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Requires ChromaDepth glasses." id="pgH-vY-hLs">
+                            <textField verticalHuggingPriority="750" id="GCy-8n-wDC">
+                                <rect key="frame" x="265" y="19" width="211" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Requiert des lunettes ChromaDepth." id="pgH-vY-hLs">
                                     <font key="font" metaFont="smallSystem"/>
                                     <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cwx-74-fbb">
+                            <button id="Cwx-74-fbb">
                                 <rect key="frame" x="247" y="35" width="112" height="18"/>
-                                <buttonCell key="cell" type="check" title="Stereoscopy" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="UPw-b4-5jJ">
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="check" title="Stéréoscopie" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="UPw-b4-5jJ">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -340,14 +361,29 @@ Gw
                             </button>
                         </subviews>
                     </customView>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z8o-af-ZHt">
-                        <rect key="frame" x="14" y="13" width="91" height="32"/>
-                        <buttonCell key="cell" type="push" title="About…" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="N14-st-5mQ">
+                    <button verticalHuggingPriority="750" id="z8o-af-ZHt">
+                        <rect key="frame" x="14" y="13" width="129" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="À propos de…" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="N14-st-5mQ">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
                             <action selector="showAboutBox:" target="-2" id="XhJ-zm-1s2"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" id="w1E-SX-GHp">
+                        <rect key="frame" x="307" y="13" width="87" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Annuler" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="HXi-oq-uey">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="closeDialog:" target="-2" id="hAU-f2-2hO"/>
                         </connections>
                     </button>
                 </subviews>

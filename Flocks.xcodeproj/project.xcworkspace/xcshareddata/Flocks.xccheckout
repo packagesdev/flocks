@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7C36E1DD-70B2-4EC6-9DCB-BEBCC59929C7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Flocks</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>51F150AFDC369B79AFC620C0E9E34ADCDECB9665</key>
+		<string>https://github.com/packagesdev/rsscommon</string>
+		<key>C7A409649E314840E1F42BF559DEA452876AFCC2</key>
+		<string>https://github.com/packagesdev/flocks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Flocks.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>51F150AFDC369B79AFC620C0E9E34ADCDECB9665</key>
+		<string>../..Flocks/rsscommon/</string>
+		<key>C7A409649E314840E1F42BF559DEA452876AFCC2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/packagesdev/flocks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C7A409649E314840E1F42BF559DEA452876AFCC2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C7A409649E314840E1F42BF559DEA452876AFCC2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>flocks</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>51F150AFDC369B79AFC620C0E9E34ADCDECB9665</string>
+			<key>IDESourceControlWCCName</key>
+			<string>rsscommon</string>
+		</dict>
+	</array>
+</dict>
+</plist>

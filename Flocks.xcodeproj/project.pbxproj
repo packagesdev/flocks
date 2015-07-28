@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F47A6CB91B66CD450077F71E /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F47A6CB71B66CD450077F71E /* thumbnail.png */; };
 		F47A6CBA1B66CD450077F71E /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F47A6CB81B66CD450077F71E /* thumbnail@2x.png */; };
+		F48CC4321B680D33009CD46D /* RSSFlocksConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48CC4341B680D33009CD46D /* RSSFlocksConfigurationWindowController.xib */; };
 		F49D2B911B658117002B07EE /* RSSFlocksView.h in Headers */ = {isa = PBXBuildFile; fileRef = F49D2B901B658117002B07EE /* RSSFlocksView.h */; };
 		F49D2B931B658117002B07EE /* RSSFlocksView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F49D2B921B658117002B07EE /* RSSFlocksView.mm */; };
 		F49D2B9B1B658236002B07EE /* RSSFlocksConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F49D2B991B658236002B07EE /* RSSFlocksConfigurationWindowController.h */; };
@@ -31,7 +32,6 @@
 		F49D2BC41B65866E002B07EE /* Flocks.h in Headers */ = {isa = PBXBuildFile; fileRef = F49D2BC21B65866E002B07EE /* Flocks.h */; };
 		F49D2BC91B658AAC002B07EE /* Rgbhsl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49D2BC71B658AAC002B07EE /* Rgbhsl.cpp */; };
 		F49D2BCA1B658AAC002B07EE /* Rgbhsl.h in Headers */ = {isa = PBXBuildFile; fileRef = F49D2BC81B658AAC002B07EE /* Rgbhsl.h */; };
-		F49D2BCE1B65A375002B07EE /* RSSFlocksConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49D2BCD1B65A375002B07EE /* RSSFlocksConfigurationWindowController.xib */; };
 		F49D2BD41B65A3EB002B07EE /* RSSLightGrayBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = F49D2BD01B65A3EB002B07EE /* RSSLightGrayBackgroundView.h */; };
 		F49D2BD51B65A3EB002B07EE /* RSSLightGrayBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F49D2BD11B65A3EB002B07EE /* RSSLightGrayBackgroundView.m */; };
 		F49D2BD61B65A3EB002B07EE /* RSSSecondaryBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F49D2BD21B65A3EB002B07EE /* RSSSecondaryBox.h */; };
@@ -58,6 +58,9 @@
 /* Begin PBXFileReference section */
 		F47A6CB71B66CD450077F71E /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbnail.png; path = images/thumbnail.png; sourceTree = "<group>"; };
 		F47A6CB81B66CD450077F71E /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbnail@2x.png"; path = "images/thumbnail@2x.png"; sourceTree = "<group>"; };
+		F48CC4331B680D33009CD46D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RSSFlocksConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F48CC4351B680D46009CD46D /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/RSSFlocksConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F48CC4361B680D50009CD46D /* fr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr; path = rsscommon/fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F49D2B8B1B658117002B07EE /* Flocks.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flocks.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49D2B8F1B658117002B07EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F49D2B901B658117002B07EE /* RSSFlocksView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSFlocksView.h; sourceTree = "<group>"; };
@@ -82,7 +85,6 @@
 		F49D2BC21B65866E002B07EE /* Flocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flocks.h; path = GPL/Flocks.h; sourceTree = "<group>"; };
 		F49D2BC71B658AAC002B07EE /* Rgbhsl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rgbhsl.cpp; path = rsscommon/GPL/Rgbhsl/Rgbhsl.cpp; sourceTree = "<group>"; };
 		F49D2BC81B658AAC002B07EE /* Rgbhsl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rgbhsl.h; path = rsscommon/GPL/Rgbhsl/Rgbhsl.h; sourceTree = "<group>"; };
-		F49D2BCD1B65A375002B07EE /* RSSFlocksConfigurationWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSSFlocksConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F49D2BD01B65A3EB002B07EE /* RSSLightGrayBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSLightGrayBackgroundView.h; path = rsscommon/RSSLightGrayBackgroundView.h; sourceTree = "<group>"; };
 		F49D2BD11B65A3EB002B07EE /* RSSLightGrayBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSLightGrayBackgroundView.m; path = rsscommon/RSSLightGrayBackgroundView.m; sourceTree = "<group>"; };
 		F49D2BD21B65A3EB002B07EE /* RSSSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSSecondaryBox.h; path = rsscommon/RSSSecondaryBox.h; sourceTree = "<group>"; };
@@ -165,7 +167,7 @@
 			children = (
 				F49D2B991B658236002B07EE /* RSSFlocksConfigurationWindowController.h */,
 				F49D2B9A1B658236002B07EE /* RSSFlocksConfigurationWindowController.m */,
-				F49D2BCD1B65A375002B07EE /* RSSFlocksConfigurationWindowController.xib */,
+				F48CC4341B680D33009CD46D /* RSSFlocksConfigurationWindowController.xib */,
 			);
 			name = Configuration;
 			sourceTree = "<group>";
@@ -291,6 +293,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 			);
 			mainGroup = F49D2B811B658117002B07EE;
 			productRefGroup = F49D2B8C1B658117002B07EE /* Products */;
@@ -325,7 +328,7 @@
 			files = (
 				F47A6CB91B66CD450077F71E /* thumbnail.png in Resources */,
 				F49D2BAD1B658337002B07EE /* RSSAboutBoxWindowController.xib in Resources */,
-				F49D2BCE1B65A375002B07EE /* RSSFlocksConfigurationWindowController.xib in Resources */,
+				F48CC4321B680D33009CD46D /* RSSFlocksConfigurationWindowController.xib in Resources */,
 				F47A6CBA1B66CD450077F71E /* thumbnail@2x.png in Resources */,
 				F49D2BC01B658368002B07EE /* Localizable.strings in Resources */,
 			);
@@ -380,10 +383,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		F48CC4341B680D33009CD46D /* RSSFlocksConfigurationWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48CC4331B680D33009CD46D /* en */,
+				F48CC4351B680D46009CD46D /* fr */,
+			);
+			name = RSSFlocksConfigurationWindowController.xib;
+			sourceTree = "<group>";
+		};
 		F49D2BBE1B658368002B07EE /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F49D2BBF1B658368002B07EE /* en */,
+				F48CC4361B680D50009CD46D /* fr */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
