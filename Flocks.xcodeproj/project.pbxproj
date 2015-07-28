@@ -65,6 +65,8 @@
 		F48CC4391B681190009CD46D /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = rsscommon/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F48CC43B1B682561009CD46D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/RSSFlocksConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F48CC43C1B682570009CD46D /* es */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = es; path = rsscommon/es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F48CC43E1B682DA1009CD46D /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/RSSFlocksConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F48CC43F1B682DAA009CD46D /* it */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = it; path = rsscommon/it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F49D2B8B1B658117002B07EE /* Flocks.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flocks.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49D2B8F1B658117002B07EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F49D2B901B658117002B07EE /* RSSFlocksView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSFlocksView.h; sourceTree = "<group>"; };
@@ -300,6 +302,7 @@
 				fr,
 				ja,
 				es,
+				it,
 			);
 			mainGroup = F49D2B811B658117002B07EE;
 			productRefGroup = F49D2B8C1B658117002B07EE /* Products */;
@@ -396,6 +399,7 @@
 				F48CC4351B680D46009CD46D /* fr */,
 				F48CC4381B681187009CD46D /* ja */,
 				F48CC43B1B682561009CD46D /* es */,
+				F48CC43E1B682DA1009CD46D /* it */,
 			);
 			name = RSSFlocksConfigurationWindowController.xib;
 			sourceTree = "<group>";
@@ -407,6 +411,7 @@
 				F48CC4361B680D50009CD46D /* fr */,
 				F48CC4391B681190009CD46D /* ja */,
 				F48CC43C1B682570009CD46D /* es */,
+				F48CC43F1B682DAA009CD46D /* it */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
