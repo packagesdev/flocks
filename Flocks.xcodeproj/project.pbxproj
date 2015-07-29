@@ -95,6 +95,8 @@
 		F49D2BD11B65A3EB002B07EE /* RSSLightGrayBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSLightGrayBackgroundView.m; path = rsscommon/RSSLightGrayBackgroundView.m; sourceTree = "<group>"; };
 		F49D2BD21B65A3EB002B07EE /* RSSSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSSecondaryBox.h; path = rsscommon/RSSSecondaryBox.h; sourceTree = "<group>"; };
 		F49D2BD31B65A3EB002B07EE /* RSSSecondaryBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSSecondaryBox.m; path = rsscommon/RSSSecondaryBox.m; sourceTree = "<group>"; };
+		F4CE4D4F1B6967AF00587AFB /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/RSSFlocksConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F4CE4D501B6967C000587AFB /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = rsscommon/de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4F4B81C1B66CDD10047F8E6 /* refafactor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = refafactor.xcodeproj; path = Flocks/rsscommon/refafactor/refafactor.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -303,6 +305,7 @@
 				ja,
 				es,
 				it,
+				de,
 			);
 			mainGroup = F49D2B811B658117002B07EE;
 			productRefGroup = F49D2B8C1B658117002B07EE /* Products */;
@@ -400,6 +403,7 @@
 				F48CC4381B681187009CD46D /* ja */,
 				F48CC43B1B682561009CD46D /* es */,
 				F48CC43E1B682DA1009CD46D /* it */,
+				F4CE4D4F1B6967AF00587AFB /* de */,
 			);
 			name = RSSFlocksConfigurationWindowController.xib;
 			sourceTree = "<group>";
@@ -412,6 +416,7 @@
 				F48CC4391B681190009CD46D /* ja */,
 				F48CC43C1B682570009CD46D /* es */,
 				F48CC43F1B682DAA009CD46D /* it */,
+				F4CE4D501B6967C000587AFB /* de */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

@@ -163,8 +163,6 @@
 		return;
 	}
 	
-	[self lockFocus];
-	
 	[[_openGLView openGLContext] makeCurrentContext];
 	
 	glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
@@ -188,8 +186,6 @@
 	
 	const GLint tSwapInterval=1;
 	CGLSetParameter(CGLGetCurrentContext(), kCGLCPSwapInterval,&tSwapInterval);
-	
-	[self unlockFocus];
 }
 
 - (void)stopAnimation
