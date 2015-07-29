@@ -97,6 +97,8 @@
 		F49D2BD31B65A3EB002B07EE /* RSSSecondaryBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSSecondaryBox.m; path = rsscommon/RSSSecondaryBox.m; sourceTree = "<group>"; };
 		F4CE4D4F1B6967AF00587AFB /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/RSSFlocksConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F4CE4D501B6967C000587AFB /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = rsscommon/de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4CE4D541B696D4500587AFB /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/RSSFlocksConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F4CE4D551B696D5700587AFB /* sv */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = sv; path = rsscommon/sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4F4B81C1B66CDD10047F8E6 /* refafactor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = refafactor.xcodeproj; path = Flocks/rsscommon/refafactor/refafactor.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -306,6 +308,7 @@
 				es,
 				it,
 				de,
+				sv,
 			);
 			mainGroup = F49D2B811B658117002B07EE;
 			productRefGroup = F49D2B8C1B658117002B07EE /* Products */;
@@ -404,6 +407,7 @@
 				F48CC43B1B682561009CD46D /* es */,
 				F48CC43E1B682DA1009CD46D /* it */,
 				F4CE4D4F1B6967AF00587AFB /* de */,
+				F4CE4D541B696D4500587AFB /* sv */,
 			);
 			name = RSSFlocksConfigurationWindowController.xib;
 			sourceTree = "<group>";
@@ -417,6 +421,7 @@
 				F48CC43C1B682570009CD46D /* es */,
 				F48CC43F1B682DAA009CD46D /* it */,
 				F4CE4D501B6967C000587AFB /* de */,
+				F4CE4D551B696D5700587AFB /* sv */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
