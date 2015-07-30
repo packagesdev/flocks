@@ -272,7 +272,7 @@ Gw
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" id="3zH-g8-IBq">
-                                <rect key="frame" x="40" y="20" width="202" height="17"/>
+                                <rect key="frame" x="24" y="20" width="218" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Velocità di dissolvenza colore:" id="Bjc-yB-N9P">
                                     <font key="font" metaFont="systemBold"/>

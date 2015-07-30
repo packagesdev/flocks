@@ -127,7 +127,7 @@ Gw
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" id="cmC-a0-xX4">
-                                <rect key="frame" x="105" y="75" width="137" height="17"/>
+                                <rect key="frame" x="94" y="75" width="148" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Droppe komplexitet:" id="c4g-xa-r7N">
                                     <font key="font" metaFont="systemBold"/>
