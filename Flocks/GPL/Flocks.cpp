@@ -180,6 +180,8 @@ void scene::draw()
 	// Update and draw followers
 	for(int i=0; i<followersCount; i++)
 		_followerBugs[i].update(tElapsedTime,_leaderBugs,this);
+	
+	glFinish();
 }
 
 #pragma mark -
