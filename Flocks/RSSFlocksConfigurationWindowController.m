@@ -123,7 +123,7 @@
 	
 	if (tFlocksSettings.geometryType!=RSSFlocksBugGeometryTypeBlob)
 	{
-		[_blobComplexityLeftLabel setTextColor:[NSColor grayColor]];
+		[_blobComplexityLeftLabel setTextColor:[NSColor secondaryLabelColor]];
 		
 		[_blobComplexitySlider setEnabled:NO];
 		
@@ -131,7 +131,7 @@
 	}
 	else
 	{
-		[_blobComplexityLeftLabel setTextColor:[NSColor blackColor]];
+		[_blobComplexityLeftLabel setTextColor:[NSColor labelColor]];
 		
 		[_blobComplexitySlider setEnabled:YES];
 		
