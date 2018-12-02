@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F47582EE21B4034F002754BC /* RSSView.h in Headers */ = {isa = PBXBuildFile; fileRef = F47582EC21B4034F002754BC /* RSSView.h */; };
+		F47582EF21B4034F002754BC /* RSSView.m in Sources */ = {isa = PBXBuildFile; fileRef = F47582ED21B4034F002754BC /* RSSView.m */; };
+		F47582F221B40355002754BC /* NSColor+LabelColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F47582F021B40355002754BC /* NSColor+LabelColor.h */; };
+		F47582F321B40355002754BC /* NSColor+LabelColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F47582F121B40355002754BC /* NSColor+LabelColor.m */; };
 		F47A6CB91B66CD450077F71E /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F47A6CB71B66CD450077F71E /* thumbnail.png */; };
 		F47A6CBA1B66CD450077F71E /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F47A6CB81B66CD450077F71E /* thumbnail@2x.png */; };
 		F48CC4321B680D33009CD46D /* RSSFlocksConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48CC4341B680D33009CD46D /* RSSFlocksConfigurationWindowController.xib */; };
@@ -34,8 +38,6 @@
 		F49D2BCA1B658AAC002B07EE /* Rgbhsl.h in Headers */ = {isa = PBXBuildFile; fileRef = F49D2BC81B658AAC002B07EE /* Rgbhsl.h */; };
 		F49D2BD61B65A3EB002B07EE /* RSSSecondaryBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F49D2BD21B65A3EB002B07EE /* RSSSecondaryBox.h */; };
 		F49D2BD71B65A3EB002B07EE /* RSSSecondaryBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F49D2BD31B65A3EB002B07EE /* RSSSecondaryBox.m */; };
-		F4B535072169635F003E1E83 /* RSSView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B535052169635F003E1E83 /* RSSView.h */; };
-		F4B535082169635F003E1E83 /* RSSView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B535062169635F003E1E83 /* RSSView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F47582EC21B4034F002754BC /* RSSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSView.h; path = rsscommon/RSSView.h; sourceTree = "<group>"; };
+		F47582ED21B4034F002754BC /* RSSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSView.m; path = rsscommon/RSSView.m; sourceTree = "<group>"; };
+		F47582F021B40355002754BC /* NSColor+LabelColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSColor+LabelColor.h"; path = "rsscommon/NSColor+LabelColor.h"; sourceTree = "<group>"; };
+		F47582F121B40355002754BC /* NSColor+LabelColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSColor+LabelColor.m"; path = "rsscommon/NSColor+LabelColor.m"; sourceTree = "<group>"; };
 		F47A6CB71B66CD450077F71E /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbnail.png; path = images/thumbnail.png; sourceTree = "<group>"; };
 		F47A6CB81B66CD450077F71E /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbnail@2x.png"; path = "images/thumbnail@2x.png"; sourceTree = "<group>"; };
 		F48CC4331B680D33009CD46D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RSSFlocksConfigurationWindowController.xib; sourceTree = "<group>"; };
@@ -93,8 +99,6 @@
 		F49D2BC81B658AAC002B07EE /* Rgbhsl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rgbhsl.h; path = rsscommon/GPL/Rgbhsl/Rgbhsl.h; sourceTree = "<group>"; };
 		F49D2BD21B65A3EB002B07EE /* RSSSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSSecondaryBox.h; path = rsscommon/RSSSecondaryBox.h; sourceTree = "<group>"; };
 		F49D2BD31B65A3EB002B07EE /* RSSSecondaryBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSSecondaryBox.m; path = rsscommon/RSSSecondaryBox.m; sourceTree = "<group>"; };
-		F4B535052169635F003E1E83 /* RSSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSView.h; path = rsscommon/RSSView.h; sourceTree = "<group>"; };
-		F4B535062169635F003E1E83 /* RSSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSView.m; path = rsscommon/RSSView.m; sourceTree = "<group>"; };
 		F4CE4D4F1B6967AF00587AFB /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/RSSFlocksConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F4CE4D501B6967C000587AFB /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = rsscommon/de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4CE4D541B696D4500587AFB /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/RSSFlocksConfigurationWindowController.xib; sourceTree = "<group>"; };
@@ -185,8 +189,12 @@
 		F49D2BA01B658260002B07EE /* rsscommon */ = {
 			isa = PBXGroup;
 			children = (
+				F47582F021B40355002754BC /* NSColor+LabelColor.h */,
+				F47582F121B40355002754BC /* NSColor+LabelColor.m */,
 				F49D2BAE1B658342002B07EE /* RSSSettings.h */,
 				F49D2BAF1B658342002B07EE /* RSSSettings.m */,
+				F47582EC21B4034F002754BC /* RSSView.h */,
+				F47582ED21B4034F002754BC /* RSSView.m */,
 				F49D2BB41B65834E002B07EE /* RSSWindow.h */,
 				F49D2BB51B65834E002B07EE /* RSSWindow.m */,
 				F49D2BB21B65834E002B07EE /* RSSUserDefaults+Constants.h */,
@@ -195,8 +203,6 @@
 				F49D2BBB1B65835C002B07EE /* RSSConfigurationWindowController.m */,
 				F49D2BA81B658337002B07EE /* RSSAboutBoxWindowController.h */,
 				F49D2BA91B658337002B07EE /* RSSAboutBoxWindowController.m */,
-				F4B535052169635F003E1E83 /* RSSView.h */,
-				F4B535062169635F003E1E83 /* RSSView.m */,
 				F49D2BD21B65A3EB002B07EE /* RSSSecondaryBox.h */,
 				F49D2BD31B65A3EB002B07EE /* RSSSecondaryBox.m */,
 				F49D2BC51B658A91002B07EE /* GPL */,
@@ -247,10 +253,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F49D2BD61B65A3EB002B07EE /* RSSSecondaryBox.h in Headers */,
+				F47582EE21B4034F002754BC /* RSSView.h in Headers */,
 				F49D2BCA1B658AAC002B07EE /* Rgbhsl.h in Headers */,
-				F4B535072169635F003E1E83 /* RSSView.h in Headers */,
 				F49D2BA51B658290002B07EE /* RSSFlocksSettings.h in Headers */,
 				F49D2B9B1B658236002B07EE /* RSSFlocksConfigurationWindowController.h in Headers */,
+				F47582F221B40355002754BC /* NSColor+LabelColor.h in Headers */,
 				F49D2B911B658117002B07EE /* RSSFlocksView.h in Headers */,
 				F49D2BB81B65834E002B07EE /* RSSWindow.h in Headers */,
 				F49D2BBC1B65835C002B07EE /* RSSConfigurationWindowController.h in Headers */,
@@ -375,15 +382,16 @@
 				F49D2BB91B65834E002B07EE /* RSSWindow.m in Sources */,
 				F49D2BC91B658AAC002B07EE /* Rgbhsl.cpp in Sources */,
 				F49D2BAC1B658337002B07EE /* RSSAboutBoxWindowController.m in Sources */,
+				F47582F321B40355002754BC /* NSColor+LabelColor.m in Sources */,
 				F49D2BB71B65834E002B07EE /* RSSUserDefaults+Constants.m in Sources */,
 				F49D2BA61B658290002B07EE /* RSSFlocksSettings.m in Sources */,
+				F47582EF21B4034F002754BC /* RSSView.m in Sources */,
 				F49D2B931B658117002B07EE /* RSSFlocksView.mm in Sources */,
 				F49D2BC31B65866E002B07EE /* Flocks.cpp in Sources */,
 				F49D2BBD1B65835C002B07EE /* RSSConfigurationWindowController.m in Sources */,
 				F49D2BD71B65A3EB002B07EE /* RSSSecondaryBox.m in Sources */,
 				F49D2BB11B658342002B07EE /* RSSSettings.m in Sources */,
 				F49D2B9C1B658236002B07EE /* RSSFlocksConfigurationWindowController.m in Sources */,
-				F4B535082169635F003E1E83 /* RSSView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,7 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				INFOPLIST_FILE = Flocks/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -521,7 +529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				INFOPLIST_FILE = Flocks/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
